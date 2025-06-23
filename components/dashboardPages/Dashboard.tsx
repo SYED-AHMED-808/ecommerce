@@ -1,9 +1,12 @@
+
 import React from "react";
 import { BsSearch } from "react-icons/bs";
 import { FaRegBell } from "react-icons/fa";
 import Image from "next/image";
 import profile from "@/assets/images/profile.png";
 import WidgetItem from "@/components/dashboardComponents/WidgetItem";
+import RevenueChart from "../dashboardComponents/RevenueChart";
+import DashboardCategories from "../dashboardComponents/DashboardCategories";
 const Dashboard = () => {
   return (
     <main className="dashboard">
@@ -44,7 +47,8 @@ const Dashboard = () => {
         />
       </section>
       <section className="graphContainer">
-        
+        <RevenueChart />
+        <DashboardCategories />
       </section>
     </main>
   );
