@@ -59,7 +59,7 @@ export default function BarChart({
         beginAtZero:true,
         grid:{
           display:false,
-        }
+        },
       },
       x:{
 

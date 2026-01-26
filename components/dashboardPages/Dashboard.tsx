@@ -7,6 +7,7 @@ import profile from "@/assets/images/profile.png";
 import WidgetItem from "@/components/dashboardComponents/WidgetItem";
 import RevenueChart from "../dashboardComponents/RevenueChart";
 import DashboardCategories from "../dashboardComponents/DashboardCategories";
+import GenderChart from "../dashboardComponents/GenderChart";
 const Dashboard = () => {
   return (
     <main className="dashboard">
@@ -50,6 +51,8 @@ const Dashboard = () => {
         <RevenueChart />
         <DashboardCategories />
       </section>
+      <GenderChart/>
+      
     </main>
   );
 };
