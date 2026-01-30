@@ -2,9 +2,8 @@
 import React, { useCallback, useState } from "react";
 import TableHOC from "../HOC/TableHOC";
 import { ColumnDef } from "@tanstack/react-table";
-import Link from "next/link";
 import Image from "next/image";
-import { FaPlus, FaTrash } from "react-icons/fa";
+import { FaTrash } from "react-icons/fa";
 
 interface CustomersDataType {
   avatar: {
