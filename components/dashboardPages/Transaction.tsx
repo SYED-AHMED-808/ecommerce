@@ -63,7 +63,7 @@ const arr:TransactionsDataType[] = [
   quantity: 1,
   status: "Processing",
    action: {
-    href:"/admin/product/sajKnaskdjdn",
+    href:"/admin/transaction/sajKnaskdjdn",
     value:"Manage"
   }
 },
@@ -74,7 +74,7 @@ const arr:TransactionsDataType[] = [
   quantity: 5,
   status: "Processing",
    action: {
-    href:"/admin/product/sajKnaskdjdn",
+    href:"/admin/transaction/sajKnaskdjdn",
     value:"Manage"
   }
 },
